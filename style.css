@@ -1,9 +1,78 @@
+/*******about color*******/
+/*bese back graund of this page */
+
 body{
-  background-color: rgb(181, 180, 180) ;
+  background-color: rgb(211, 210, 210) ;
 }
-.ba_figure{
-  background-color: #ffffff;
+/*back graund of image contents*/
+img{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 60%;
 }
+
+/*******about size and position*******/
+/*setting osition center width*/
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center{
+  width: 500px;
+  margin: 0 auto ;
+}
+/*style of list w bullet*/
+ul{
+  list-style-position: outside ;
+}
+div{
+  margin-bottom: 30px;
+  padding: auto;
+}
+li{
+  margin-bottom: 20px;
+}
+
+/*******about font*******/
+/*size of H*/
+h1{
+  font-size: 38px;
+  text-align: center;
+}
+h3{
+  font-size: 26px;
+  text-align: center;
+}
+h4{
+  font-size: 18px;
+  text-align: center;
+}
+/*size of p*/
 p{
-  size: 11px;
+  font-size: 18px;
+  line-height: 1.2
+}
+/*google font setting */
+.noto-sans-font800 {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight 800px ;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.noto-sans-font200 {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight 200px ;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.playwrite-de-va-guides-regular {
+  font-family: "Playwrite DE VA Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
